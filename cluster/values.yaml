@@ -1,3 +1,5 @@
 deployment:
   image: nexus98/gitops-frontend:0.0.1
-  name: web
+
+clientHost: ""
+branch: ""

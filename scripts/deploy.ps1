@@ -13,4 +13,6 @@ helm upgrade $namespace cluster `
 --cleanup-on-fail `
 --install `
 --namespace $namespace `
---debug
+--debug `
+--set "clientHost=$namespace.io"
+--set "branch=$namespace"
